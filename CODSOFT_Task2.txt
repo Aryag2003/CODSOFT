@@ -1,0 +1,48 @@
+SECOND TASK - CALCULATOR 
+
+first_no = input("Enter first number :")
+operator = input("Enter operator (+,-,*,/,%) :")
+second_no = input ("Enter second number :")
+
+first_no = int(first_no)
+second_no = int(second_no)
+
+if operator == "+":
+    print(first_no, "+", second_no, "=" , (first_no + second_no))
+    
+elif operator == "-":
+    print(first_no, "-" ,second_no, "=" , (first_no - second_no))
+    
+elif operator == "*":
+    print(first_no, "*" ,second_no, "=" , (first_no * second_no))
+    
+elif operator == "/":
+    print(first_no, "/" ,second_no, "=" , (first_no / second_no))
+    
+elif operator == "%":
+    print(first_no, "%" ,second_no, "=" , (first_no % second_no))
+    
+else:
+    print("Invalid operation")
+
+OUTPUT -
+
+Enter first number :12
+Enter operator (+,-,*,/,%) :/
+Enter second number :6
+12 / 6 = 2.0
+​
+Enter first number :34
+Enter operator (+,-,*,/,%) :+
+Enter second number :25
+34 + 25 = 59
+
+Enter first number :56
+Enter operator (+,-,*,/,%) :-
+Enter second number :10
+56 - 10 = 46
+
+Enter first number :20
+Enter operator (+,-,*,/,%) :*
+Enter second number :25
+20 * 25 = 500
